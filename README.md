@@ -49,7 +49,11 @@ To use your own keywords instead of the default `mode`, you can also change it i
 
 ## Settings
 
-You **need** to create two very simple [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) by using `Set Focus` ![focus](./demo/Focus.png)
+You **need** to create two very simple [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) by using `Set Focus`
+
+<p align="center">
+	<img width="50%" src="./demo/Focus.png">
+</p>
 
 1. WorkOn
 
