@@ -10,7 +10,7 @@
 
 ## Abstract
 
-Open different folders and turn Focus on/off based on what I'm doing. Use `mode work/break/rest` to toggle between different modes. To download the workflow, see the release page.
+Open different Apps and turn Focus on/off based on what I'm doing. Use `mode work/break/rest` to toggle between different modes. To download the workflow, see the release page.
 
 ## Available Modes
 
@@ -28,7 +28,6 @@ Close work-apps, open entertaining-apps, turn off Work Focus.
 ### Rest
 
 Basically a no time-limit version of [Break](#break).
-
 
 ## Settings
 
