@@ -29,6 +29,23 @@ Close work-apps, open entertaining-apps, turn off Work Focus.
 
 Basically a no time-limit version of [Break](#break).
 
+
+## Settings
+
+You **need** to create two very simple [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) by using `Set Focus`:
+
+1. WorkOn
+
+<p align="center">
+	<img width="50%" src="./demo/WorkOn.png">
+</p>
+
+2. WorkOff
+
+<p align="center">
+	<img width="50%" src="./demo/WorkOff.png">
+</p>
+
 ## Customize
 
 ### Launched Apps
@@ -45,22 +62,6 @@ You can also customize the followings in `Configure Workflow`:
 
 <p align="center">
 	<img width="50%" src="./demo/customize.png">
-</p>
-
-## Settings
-
-You **need** to create two very simple [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) by using `Set Focus`:
-
-1. WorkOn
-
-<p align="center">
-	<img width="50%" src="./demo/WorkOn.png">
-</p>
-
-2. WorkOff
-
-<p align="center">
-	<img width="50%" src="./demo/WorkOff.png">
 </p>
 
 ## Known Issues
