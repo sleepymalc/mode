@@ -10,7 +10,7 @@
 
 ## Abstract
 
-Open different folders and turn Focus on/off based on what I'm doing. Use `mode work/break/rest` to toggle between different modes.
+Open different folders and turn Focus on/off based on what I'm doing. Use `mode work/break/rest` to toggle between different modes. To download the workflow, see the release page.
 
 ## Available Modes
 
@@ -35,25 +35,21 @@ Basically a no time-limit version of [Break](#break).
 
 To customize the launched apps you want to launch in different modes, you simply change the **Launch Apps list** in each mode flow line. Quite self-explanatory.
 
-### Break Time
+### Else
 
-To customize the break time, you can click the `Configure Workflow` and change the time there. (note that it's in seconds)
+You can also customize the followings in `Configure Workflow`:
 
-### Prompts
+1. Break time: Note that it's in seconds.
+2. Prompt when the break starts/ends: Say something nice to yourself!!
+3. Keywords: You can use different keywords if you don't like the default `mode`.
 
-To customize the prompt when the break starts/ends, you can also customize them in `Configure Workflow`.
-
-### Keywords
-
-To use your own keywords instead of the default `mode`, you can also change it in the `Configure Workflow` window.
+<p align="center">
+	<img width="50%" src="./demo/customize.png">
+</p>
 
 ## Settings
 
-You **need** to create two very simple [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) by using `Set Focus`
-
-<p align="center">
-	<img width="50%" src="./demo/Focus.png">
-</p>
+You **need** to create two very simple [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) by using `Set Focus`:
 
 1. WorkOn
 
