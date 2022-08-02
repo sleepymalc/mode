@@ -10,7 +10,7 @@
 
 ## Abstract
 
-Open different Apps and turn Focus on/off based on what I'm doing. Use `mode work/break/rest` to toggle between different modes. To download the workflow, see the release page.
+Open different Apps and turn Focus on/off based on what I'm doing. Use `mode work/break/rest` to toggle between different modes. To download the workflow, see the [release page](https://github.com/sleepymalc/mode/releases).
 
 ## Available Modes
 
