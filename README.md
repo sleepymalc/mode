@@ -67,7 +67,7 @@ You can also customize the followings in `Configure Workflow`:
 
 ### Chrome Windows Management
 
-I have two `Google Chrome` instances opened all the time with different profiles. Sadly, there's no *stable* way to change your current focus to the desired one while hiding another. Firstly, when hiding a particular windows, macOS just help you hide **all** the windows of that app. Even worse, open a particular profile with command line (`open -a 'Google Chrome' --args --profile-directory="default"`) doesn't work properly neither: it'll just bring all the chrome windows to the front. And even worse, it won't even put your focus on a particular profile. But I find out that by putting a particular windows to the **full-screen** mode, one can hide a non full-screen window individually, which may help. But for now, I can't find a neat way to do it properly.
+I have two `Google Chrome` instances opened all the time with different profiles. Sadly, there's no *stable* way to change your current focus to the desired one while hiding another. Firstly, when hiding a particular windows, macOS just help you hide **all** the windows of that app. Even worse, open a particular profile with command line `open -a 'Google Chrome' --args --profile-directory="default"` doesn't work properly neither: it'll just bring all the chrome windows to the front. And even worse, it won't even put your focus on a particular profile. But I find out that by putting a particular windows to the **full-screen** mode, one can hide a non full-screen window individually, which may help. But for now, I can't find a neat way to do it properly.
 
 ### First Launch
 
