@@ -65,6 +65,11 @@ You can also customize the followings in `Configure Workflow`:
 
 ## Known Issues
 
-macOS doesn't like full-screen mode, at least in some degrees. I have `Google Chrome` opened all the time in full-screen mode, and there's no *stable* way to change your current focus to that opened full-screen chrome instance. I have tried to do this by using both command line (`open -a /Applications/Google\ Chrome.app` and 'open -a 'Google') and [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac), but none of them works. It seems to be a macOS issue, but I think maybe they'll fix it within [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac), so I just leave it (the `Open Chrome` [Shortcuts](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac) in the workflow at the very end) there though they currently do nothing.
+### Chrome Windows Management
 
-If you don't use full-screen mode, add Chrome into your **Launch Apps list** is enough.
+I have two `Google Chrome` instances opened all the time with different profiles. Sadly, there's no *stable* way to change your current focus to the desired one while hiding another. Firstly, when hiding a particular windows, macOS just help you hide **all** the windows of that app. Even worse, open a particular profile with command line (`open -a 'Google Chrome' --args --profile-directory="default"`) doesn't work properly neither: it'll just bring all the chrome windows to the front. And even worse, it won't even put your focus on a particular profile. But I find out that by putting a particular windows to the **full-screen** mode, one can hide a non full-screen window individually, which may help. But for now, I can't find a neat way to do it properly.
+
+### First Launch
+
+You might notice that when you first launch this workflow, a notification indicates that ther's a bug is **expected**: Since I create a variable file to keep track of the mode you're now in, and if you haven't manually create it, it can't find that file hence fail to read anything. But don't worry, if the file do not exist, macOS will create for you automatically, so after the frist launch, everything should be fine and work properly.
+
