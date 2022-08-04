@@ -36,7 +36,7 @@ You **need** to create two very simple [Shortcuts](https://support.apple.com/gui
 1. WorkOn
 
 <p align="center">
-	<img width="50%" src="./demo/WorkOn.png">
+	<img align="center" width="50%" src="./demo/WorkOn.png">
 </p>
 
 2. WorkOff
@@ -74,4 +74,3 @@ With all the discourging fact, I find out that by putting a particular windows t
 ### First Launch
 
 You might notice that when you first launch this workflow, a notification indicates that ther's a bug is **expected**: Since I create a variable file to keep track of the mode you're now in, and if you haven't manually create it, it can't find that file hence fail to read anything. But don't worry, if the file do not exist, macOS will create for you automatically, so after the frist launch, everything should be fine and work properly.
-
