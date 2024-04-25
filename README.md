@@ -18,16 +18,16 @@ There are three modes:
 
 ### Work
 
-Bring all relevant apps and close others, and turn on Work Focus.
+Bring all relevant apps to the front, close others, and turn on Work Focus.
 
 ### Break
 
-Close work-apps, open entertaining-apps, turn off Work Focus.
+Close work apps, open entertaining apps, and turn off Work Focus.
 > The default break time is 20 minutes, after that it'll **bring you back to Work mode**.
 
 ### Rest
 
-Basically a no time-limit version of [Break](#break).
+Basically a no-time-limit version of [Break](#break).
 
 ## Settings
 
@@ -53,7 +53,7 @@ To customize the launched apps you want to launch in different modes, you simply
 
 ### Else
 
-You can also customize the followings in `Configure Workflow`:
+You can also customize the following in `Configure` Workflow`:
 
 1. Break time: Note that it's in seconds.
 2. Prompt when the break starts/ends: Say something nice to yourself!!
@@ -67,10 +67,10 @@ You can also customize the followings in `Configure Workflow`:
 
 ### Chrome Windows Management
 
-I have two `Google Chrome` instances opened all the time with different profiles. Sadly, there's no *stable* way to change your current focus to the desired one while hiding another. Firstly, when hiding a particular windows, macOS just help you hide **all** the windows of that app. Even worse, opening a particular profile with command line `open -a 'Google Chrome' --args --profile-directory="default"` doesn't work properly neither: it'll just bring all the chrome windows to the front and it won't even put your focus on that particular profile window.
+I have two `Google Chrome` instances opened all the time with different profiles. Sadly, there's no *stable* way to change your current focus to the desired one while hiding another. Firstly, when hiding a particular window, macOS just helps you hide **all** the windows of that app. Even worse, opening a particular profile with the command line `open` -a 'Google Chrome' --args --profile-directory="default"` doesn't work properly either: it'll just bring all the Chrome windows to the front, and it won't even put your focus on that particular profile window.
 
-With all the discourging fact, I find out that by putting a particular windows to the **full-screen** mode, one can hide a non full-screen window individually, which may help. But for now, I can't find a neat way to do it properly and macOS treat full-screen window a little bit different so...
+With all the discouraging facts, I found out that by putting a particular window to the **full-screen** mode, one can hide a non-full-screen window individually, which may help. But for now, I can't find a neat way to do it properly and macOS treats full-screen windows a little bit differently so...
 
 ### First Launch
 
-You might notice that when you first launch this workflow, a notification indicates that ther's a bug is **expected**: Since I create a variable file to keep track of the mode you're now in, and if you haven't manually create it, it can't find that file hence fail to read anything. But don't worry, if the file do not exist, macOS will create for you automatically, so after the frist launch, everything should be fine and work properly.
+You might notice that when you first launch this workflow, a notification indicates that there's a bug, which is **expected**: Since I create a variable file to keep track of the mode you're now in, and if you haven't manually create it, it can't find that file hence fail to read anything. But don't worry, if the file does not exist, macOS will create for you automatically, so after the first launch, everything should be fine and work properly.
